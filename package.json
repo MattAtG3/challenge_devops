@@ -1,0 +1,45 @@
+{
+  "name": "gpsdkdocgen",
+  "version": "0.0.1",
+  "description": "Gravity Platform Documentation Generation",
+  "main": "src/sdkdocgen.js",
+  "scripts": {
+    "docs": "jsdoc tmp -r -c ./conf.json -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GriffinGroupGlobal/gputil_sdkdocgen.git"
+  },
+  "keywords": [
+    "gravity",
+    "platform",
+    "utilities",
+    "error"
+  ],
+  "author": "Matt Jenks <matt.jenks@griffingroupglobal.com>",
+  "license": "SEE LICENSE IN license.md",
+  "engines": {
+    "node": ">=9.8"
+  },
+  "bugs": {
+    "url": "https://github.com/GriffinGroupGlobal/gputil_sdkdocgen/issues"
+  },
+  "homepage": "https://github.com/GriffinGroupGlobal/gputil_sdkdocgen#readme",
+  "devDependencies": {
+    "jsdoc": "^3.5.5"
+  },
+  "dependencies": {},
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "**/*.spec.js",
+      "dist/*"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": []
+  }
+}
