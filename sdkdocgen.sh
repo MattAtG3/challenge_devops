@@ -1,15 +1,7 @@
 #!/usr/bin/env bash
 
-declare -a libs=("gplib_config"
-                 "gplib_constants"
-                 "gplib_contenttype"
-                 "gplib_error"
-                 "gplib_i18n"
-                 "gplib_operationoutcome"
-                 "gplib_resource"
-                 "gplib_routes"
-                 "gplib_sanitize"
-                 "gplib_validobject"
+declare -a libs=("samplelib1"
+                 "samplelib2"
                 )
 
 TMPDIR="tmp"

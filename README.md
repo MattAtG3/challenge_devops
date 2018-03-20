@@ -1,7 +1,8 @@
 # DevOps Coding Challenge
 
 Base documentation for nodejs based APIs. Documentation is created
-used the [jsdoc] utility.
+used the [jsdoc] utility. The challenge is to create a Jenkins setup, containerized to
+build nodejs documentation and push the resulting container to docker hub.
 
 ## Creating the documentation
 Run the sdkdocgen.sh script.
